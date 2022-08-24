@@ -9,6 +9,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+**Philosophy**
 ![](myphoto.png){width=100%}
 
-Professionally, I am a graduate assistant at [Soil, Water, and Ecosystem Sciences](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.
+Professionally, I am a graduate assistant at [Department of Soil, Water, and Ecosystem Sciences, UF](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.
