@@ -1,5 +1,5 @@
 ---
-title: "Qudus Uthman"
+title: "Water, Nutrients, and Pesticides Management"
 description: |
     Graduate student of Soil, Water, and Ecosystem Sciences Department, University of Florida.
 site: distill::distill_website
