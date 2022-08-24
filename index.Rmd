@@ -1,0 +1,14 @@
+---
+title: "Qudus Uthman"
+description: |
+    Graduate student of Soil, Water, and Ecosystem Sciences Department, University of Florida.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![](myphoto.png){width=100%}
+
+Professionally, I am a graduate assistant at [Soil, Water, and Ecosystem Sciences](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.

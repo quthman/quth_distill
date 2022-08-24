@@ -1,0 +1,12 @@
+---
+title: "Publications"
+description: |
+    Google Scholar Page.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+[PUBLICATIONS](https://scholar.google.com/citations?user=Vjtgez4AAAAJ&hl=en)
+
