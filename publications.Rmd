@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 [![Google Scholar Page][1]][2]
 
-[1]:  https://pics.freeicons.io/uploads/icons/png/17520148421579517848-512.png {width=15%}
+[1]:  google_scholar.png {width=15%}
 [2]:  https://scholar.google.com/citations?user=Vjtgez4AAAAJ&hl=en "Redirect to Google Scholar Page"
 
 
