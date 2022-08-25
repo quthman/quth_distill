@@ -1,7 +1,7 @@
 name: "website"
 title: "Qudus Uthman"
 description: |
-  Graduate student of Soil, Water, and Ecosystem Sciences Department.
+  Graduate student of Soil, Water, and Ecosystem Sciences Department, University of Florida.
 output_dir: "_site"
 navbar:
   logo:

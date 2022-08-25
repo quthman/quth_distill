@@ -1,7 +1,7 @@
 ---
-title: "Contacts"
-description: |
-    Here is my contact:
+title: "Contact"
+description:
+    
 site: distill::distill_website
 ---
 
@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 **Qudus Uthman**
 
-PhD Candidate | Research - Water, Nutrients, and Pesticides Management in Citrus
-Soil, Water, and Ecosystem Sciences Department,
+PhD Candidate | Research - Water, Nutrients, and Pesticides Management in Citrus;
+Soil, Water, and Ecosystem Sciences Department;
 Institute of Food and Agricultural Services,
 University of Florida.
 
