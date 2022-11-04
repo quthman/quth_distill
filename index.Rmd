@@ -12,4 +12,4 @@ knitr::opts_chunk$set(echo = FALSE)
 **Philosophy**
 ![](myphoto.png){width=100%}
 
-Professionally, I am a graduate assistant at [Department of Soil, Water, and Ecosystem Sciences, University of Florida](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.
+I am a graduate assistant at [Department of Soil, Water, and Ecosystem Sciences, University of Florida](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.
