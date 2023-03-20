@@ -1,8 +1,8 @@
 ---
 title: "Water, Nutrients, and Pesticides Management"
 description: |
-    Graduate student,\  
-    Soil, Water, and Ecosystem Sciences Department,\  
+    Graduate student | 
+    Soil, Water, and Ecosystem Sciences Department | 
     University of Florida.
 site: distill::distill_website
 ---
