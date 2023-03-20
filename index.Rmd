@@ -1,7 +1,9 @@
 ---
 title: "Water, Nutrients, and Pesticides Management"
 description: |
-    Graduate student of Soil, Water, and Ecosystem Sciences Department, University of Florida.
+    Graduate student,
+    Soil, Water, and Ecosystem Sciences Department, 
+    University of Florida.
 site: distill::distill_website
 ---
 
@@ -9,7 +11,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Philosophy**
-![](myphoto.png){width=100%}
+**Soil model as explained by Gerke et al. (2022)**
+![](whole_idea.png){width=100%}
 
-I am a graduate assistant at [Department of Soil, Water, and Ecosystem Sciences, University of Florida](https://soils.ifas.ufl.edu/). I am interested in water, nutrients, and pesticides management.
+My research focus is on using the above soil conceptual model to understand the fate and transport processes of water, nutrients, and pesticides for best management practices.
