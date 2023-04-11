@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 PhD Candidate | Research - Water, Nutrients, and Pesticides Management in Citrus;
 Soil, Water, and Ecosystem Sciences Department;
-Institute of Food and Agricultural Services,
+Institute of Food and Agricultural Sciences,
 University of Florida.
 
 2181 McCarty Hall A
