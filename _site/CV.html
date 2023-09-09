@@ -90,27 +90,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Qudus Uthman: Curriculum Vitae</title>
 
-  <meta property="description" itemprop="description" content="Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida."/>
+  <meta property="description" itemprop="description" content="Qudus Uthman - Department of Crop and Soil Sciences, NCSU."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Qudus Uthman: Curriculum Vitae"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida."/>
+  <meta property="og:description" content="Qudus Uthman - Department of Crop and Soil Sciences, NCSU."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Qudus Uthman"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Qudus Uthman: Curriculum Vitae"/>
-  <meta property="twitter:description" content="Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida."/>
+  <meta property="twitter:description" content="Qudus Uthman - Department of Crop and Soil Sciences, NCSU."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum Vitae"]},{"type":"character","attributes":{},"value":["Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum Vitae"]},{"type":"character","attributes":{},"value":["Qudus Uthman - Department of Crop and Soil Sciences, NCSU.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -788,6 +788,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1860,15 +1861,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2377,7 +2384,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2397,7 +2404,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Curriculum Vitae","description":"Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida.","authors":[]}
+{"title":"Curriculum Vitae","description":"Qudus Uthman - Department of Crop and Soil Sciences, NCSU.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2436,8 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Curriculum Vitae</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Qudus Uthman - Soil, Water, and Ecosystem Sciences Department,
-University of Florida.</p></p>
+<p><p>Qudus Uthman - Department of Crop and Soil Sciences, NCSU.</p></p>
 </div>
 
 
@@ -2450,37 +2456,46 @@ University of Florida.</p></p>
 <p>System Thinking Approach</p>
 <p>Data Analysis</p>
 <p><strong>EDUCATION</strong></p>
-<p>2023 – PhD Soil, Water, and Ecosystems Sciences, University of
-Florida, Gainesville, FL. |<br />
-Hydrologic Sciences Concentration | PhD Minor in Statistics |
+<p>2023 – PhD Soil, Water, and Ecosystems Sciences,
+University of Florida, Gainesville, FL. |<br />
+Hydrologic Sciences Concentration |
+PhD Minor in Statistics |
 Certificate in Biological Systems Modelling.</p>
-<p>2019 – MSc Soil and Water Sciences, University of Florida,
-Gainesville, FL.</p>
-<p>2014 – B. Agric. (First Class, summa cum laude equivalent) | Soil
-Science and Land Management, Federal University of Agriculture
-Abeokuta,<br />
+<p>2019 – MSc Soil and Water Sciences,
+University of Florida, Gainesville, FL.</p>
+<p>2014 – B. Agric. (First Class, summa cum laude equivalent) |
+Soil Science and Land Management,
+Federal University of Agriculture Abeokuta,<br />
 Nigeria.</p>
 <p><strong>PROFESSIONAL DEVELOPMENT AND TRAINING</strong></p>
-<p>2022 – DSSAT Model International Training Program May 16-21st</p>
+<p>2022 – DSSAT Model International Training Program May
+16-21st</p>
 <p>2021 – Two-day HYDRUS short course, March 16-17th</p>
-<p>2018 – Teaching pedagogy and teaching with technology by teaching
-center of the University of Florida Graduate School</p>
+<p>2018 – Teaching pedagogy and teaching with technology by
+teaching center of the University of Florida
+Graduate School</p>
 <p><strong>PROFESSIONAL EXPERIENCE</strong></p>
-<p>2017 – Till date: Graduate assistant, Soil, Water, and Ecosystem
-Sciences Department, Institute of Food and Agricultural Sciences,
+<p>2023 – Till Date: Post Doctoral Researcher, Department of Crop and
+Soil Sciences, North Carolina State University
+Raleigh, NC.</p>
+<p>2017 – 2023: Graduate assistant, Soil, Water, and
+Ecosystem Sciences Department, Institute
+of Food and Agricultural Sciences,
 University of Florida, Gainesville, FL.</p>
-<p>2016 – 2017: Federal Government of Nigeria Npower agricultural
-services program at Ogun State Agricultural Development Program,
-Abeokuta, Nigeria.</p>
+<p>2016 – 2017: Federal Government of Nigeria Npower
+agricultural services program at Ogun State
+Agricultural Development Program, Abeokuta,
+Nigeria.</p>
 <p>2015 – 2016: National Youth Service Corps at Ladoke Akintola
 University of Technology Ogbomosho, Nigeria.</p>
-<p>2012 – 2013: Intern at Odogbolu rural community settlement,
-Community-Based Farming Scheme, Federal University of Agriculture,
-Abeokuta, Nigeria.</p>
-<p>2011 - 2012: Intern at Organic Agriculture for Tertiary Institution
-in Nigeria, Federal University of Agriculture, Abeokuta, Nigeria.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>2012 – 2013: Intern at Odogbolu rural community
+settlement, Community-Based Farming Scheme,
+Federal University of Agriculture, Abeokuta,
+Nigeria.</p>
+<p>2011 - 2012: Intern at Organic Agriculture for Tertiary
+Institution in Nigeria, Federal University of
+Agriculture, Abeokuta, Nigeria.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

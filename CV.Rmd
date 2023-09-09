@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 description: |
-    Qudus Uthman - Soil, Water, and Ecosystem Sciences Department, University of Florida.
+    Qudus Uthman - Department of Crop and Soil Sciences, NCSU.
 site: distill::distill_website
 ---
 
@@ -53,7 +53,11 @@ Data Analysis
 
 **PROFESSIONAL EXPERIENCE**
 
-2017 – Till date: Graduate assistant, Soil, Water, and
+2023 – Till Date: Post Doctoral Researcher, Department of Crop and
+                  Soil Sciences, North Carolina State University
+                  Raleigh, NC.
+
+2017 – 2023: Graduate assistant, Soil, Water, and
                   Ecosystem Sciences Department, Institute
                   of Food and Agricultural Sciences,
                   University of Florida, Gainesville, FL.

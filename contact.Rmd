@@ -10,17 +10,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 **Qudus Uthman**
 
-PhD Candidate | Research - Water, Nutrients, and Pesticides Management in Citrus;
-Soil, Water, and Ecosystem Sciences Department;
-Institute of Food and Agricultural Sciences,
-University of Florida.
+Department of Crop and Soil Sciences,
+North Carolina State University,
+Raleigh, NC 27695.
 
-2181 McCarty Hall A
-
-PO Box 110290,
-
-Gainesville FL 32611.
-
-E-mail: q.uthman@ufl.edu; uthmanqudus79@gmail.com 
+E-mail: qouthman@ncsu.edu; uthmanqudus79@gmail.com 
 
 

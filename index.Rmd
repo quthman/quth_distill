@@ -1,9 +1,9 @@
 ---
-title: "Water, Nutrients, and Pesticides Management"
+title: "Fertilizer Recommendation Support Tool"
 description: |
-    Graduate student | 
-    Soil, Water, and Ecosystem Sciences Department | 
-    University of Florida.
+    Post Doctoral Research Scholar | 
+    Department of Crop and Soil Sciences | 
+    North Carolina State University (NCSU).
 site: distill::distill_website
 ---
 
@@ -11,7 +11,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Soil model as explained by Gerke et al. (2022)**
-![](whole_idea.png){width=100%}
+**The soil testing and nutrient management process - BFDC**
+![](bfdc.jpg){width=100%}
 
-My research focus is on using the above soil conceptual model to understand the fate and transport processes of water, nutrients, and pesticides for best management practices.
+Fertilizer recommendation support tool - A similar concept of making better fertilizer decisions for cropping systems in Australia (BFDC)
