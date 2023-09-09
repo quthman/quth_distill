@@ -10,17 +10,21 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 **INTEREST**
 
-Water, Nutrients, and Pesticides Management;
+Water, Nutrients, and Pesticides Management
 
-Vadose zone hydrology;
+Vadose zone hydrology
 
-Environmental Soil Physics and Ecohydrology;
+Environmental Soil Physics and Ecohydrology
 
-Soil and Water Conservation and Management;
+Soil and Water Conservation and Management
 
 System Thinking Approach
 
 Data Analysis
+
+Machine Learning
+
+Artificial Intelligence
 
 **EDUCATION**
 
@@ -35,8 +39,7 @@ Data Analysis
        
 2014 – B. Agric. (First Class, summa cum laude equivalent) | 
        Soil Science and Land Management, 
-       Federal University of Agriculture Abeokuta,    
-       Nigeria.  
+       Federal University of Agriculture Abeokuta, Nigeria.  
 
 
 **PROFESSIONAL DEVELOPMENT AND TRAINING**
