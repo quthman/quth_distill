@@ -1,9 +1,6 @@
 ---
 title: "Fertilizer Recommendation Support Tool"
-description: |
-    Post Doctoral Research Scholar | 
-    Department of Crop and Soil Sciences | 
-    North Carolina State University (NCSU).
+description:
 site: distill::distill_website
 ---
 
@@ -11,7 +8,4 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**The soil testing and nutrient management process - BFDC**
-![](bfdc.jpg){width=100%}
-
-Fertilizer recommendation support tool - A similar concept of making better fertilizer decisions for cropping systems in Australia (BFDC)
+![](coming_soon.png){width=100%}

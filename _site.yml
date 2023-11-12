@@ -1,11 +1,11 @@
 name: "website"
 title: "Qudus Uthman"
-description: |
-  Post Doctoral Research Scholar, Department of Crop and Soil Sciences, NCSU.
+description: 
+  
 output_dir: "_site"
 navbar:
   logo:
-    image: quth1.png
+    image:
     href: index.html
   right:
     - text: "About"

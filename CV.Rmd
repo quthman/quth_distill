@@ -1,7 +1,8 @@
 ---
 title: "Curriculum Vitae"
 description: |
-    Qudus Uthman - Department of Crop and Soil Sciences, NCSU.
+    Qudus Uthman - Department of Crop and Soil Sciences\
+    								North Carolina State University (NCSU)
 site: distill::distill_website
 ---
 
@@ -10,75 +11,57 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 **INTEREST**
 
-Water, Nutrients, and Pesticides Management
-
-Vadose zone hydrology
-
-Environmental Soil Physics and Ecohydrology
-
-Soil and Water Conservation and Management
-
-System Thinking Approach
-
-Data Analysis
-
-Machine Learning
-
+Water, Nutrients, and Pesticides Management\
+Vadose zone hydrology\
+Environmental Soil Physics and Ecohydrology\
+Soil and Water Conservation and Management\
+System Thinking Approach\
+Data Science and Analysis\
+Machine Learning\
 Artificial Intelligence
 
 **EDUCATION**
 
-2023 – PhD Soil, Water, and Ecosystems Sciences,
-       University of Florida, Gainesville, FL. |  
-       Hydrologic Sciences Concentration | 
-       PhD Minor in Statistics | 
-       Certificate in Biological Systems Modelling.
+2023 – University of Florida, Gainesville, FL.\
+			 Doctor of Philosophy\
+			 Soil, Water, and Ecosystem Sciences\
+       Hydrologic Sciences (Concentration)\
+       Statistics (Minor)\
        
-2019 – MSc Soil and Water Sciences, 
-       University of Florida, Gainesville, FL.
+2019 – University of Florida, Gainesville, FL.\
+			 Master of Science\
+			 Soil and Water Sciences
        
-2014 – B. Agric. (First Class, summa cum laude equivalent) | 
-       Soil Science and Land Management, 
-       Federal University of Agriculture Abeokuta, Nigeria.  
-
-
-**PROFESSIONAL DEVELOPMENT AND TRAINING**
-
-2022 – DSSAT Model International Training Program May
-       16-21st 
-
-2021 – Two-day HYDRUS short course, March 16-17th 
-
-2018 – Teaching pedagogy and teaching with technology by
-       teaching center of the University of Florida
-       Graduate School
+2014 – Federal University of Agriculture Abeokuta, Nigeria\
+			 Bachelor of Agriculture\
+		   Soil Science and Land Management
+         
 
 
 **PROFESSIONAL EXPERIENCE**
 
-2023 – Till Date: Post Doctoral Researcher, Department of Crop and
-                  Soil Sciences, North Carolina State University
-                  Raleigh, NC.
+2023 – Till Date: Post Doctoral Researcher\
+                  Department of Crop and Soil Sciences\
+                  North Carolina State University, Raleigh, NC.
 
-2017 – 2023: Graduate assistant, Soil, Water, and
-                  Ecosystem Sciences Department, Institute
-                  of Food and Agricultural Sciences,
-                  University of Florida, Gainesville, FL.
+2017 – 2023: Graduate assistant\
+             Soil, Water, and Ecosystem Sciences Department\
+             Institute of Food and Agricultural Sciences\
+             University of Florida, Gainesville, FL.
 
-2016 – 2017: Federal Government of Nigeria Npower
-             agricultural services program at Ogun State
-             Agricultural Development Program, Abeokuta,
-             Nigeria.
+2016 – 2017: Federal Government of Nigeria\
+             Npower agricultural services program\
+             Ogun State Agricultural Development Program, Abeokuta, Nigeria.
              
-2015 – 2016: National Youth Service Corps at Ladoke Akintola
-             University of Technology Ogbomosho, Nigeria.
+2015 – 2016: National Youth Service Corps\
+						 Ladoke Akintola University of Technology Ogbomosho, Nigeria.
              
-2012 – 2013: Intern at Odogbolu rural community
-             settlement, Community-Based Farming Scheme,
-             Federal University of Agriculture, Abeokuta,
-             Nigeria.
+2012 – 2013: Intern\
+						 Odogbolu rural community settlement\
+						 Community-Based Farming Scheme\
+             Federal University of Agriculture, Abeokuta, Nigeria.
              
-2011 - 2012: Intern at Organic Agriculture for Tertiary
-             Institution in Nigeria, Federal University of
-             Agriculture, Abeokuta, Nigeria. 
+2011 - 2012: Intern\
+						 Organic Agriculture for Tertiary Institution in Nigeria\
+						 Federal University of Agriculture, Abeokuta, Nigeria. 
 
