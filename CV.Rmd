@@ -1,14 +1,15 @@
 ---
 title: "Curriculum Vitae"
 description: |
-    Qudus Uthman - Department of Crop and Soil Sciences\
-    								North Carolina State University (NCSU)
+    Qudus Uthman - Department of Crop and Soil Sciences
+    							 North Carolina State University (NCSU)
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 **INTEREST**
 
 Water, Nutrients, and Pesticides Management\
@@ -22,46 +23,43 @@ Artificial Intelligence
 
 **EDUCATION**
 
-2023 – University of Florida, Gainesville, FL.\
-			 Doctor of Philosophy\
-			 Soil, Water, and Ecosystem Sciences\
-       Hydrologic Sciences (Concentration)\
-       Statistics (Minor)\
-       
-2019 – University of Florida, Gainesville, FL.\
-			 Master of Science\
-			 Soil and Water Sciences
-       
-2014 – Federal University of Agriculture Abeokuta, Nigeria\
-			 Bachelor of Agriculture\
-		   Soil Science and Land Management
-         
+2023 -- University of Florida, Gainesville, FL.\
+   Doctor of Philosophy\
+   Soil, Water, and Ecosystem Sciences\
+   Hydrologic Sciences (Concentration)\
+   Statistics (Minor)
 
+2019 -- University of Florida, Gainesville, FL.\
+   Master of Science\
+   Soil and Water Sciences
+
+2014 -- Federal University of Agriculture Abeokuta, Nigeria\
+   Bachelor of Agriculture\
+   Soil Science and Land Management
 
 **PROFESSIONAL EXPERIENCE**
 
-2023 – Till Date: Post Doctoral Researcher\
-                  Department of Crop and Soil Sciences\
-                  North Carolina State University, Raleigh, NC.
+2023 -- Till Date: Post Doctoral Researcher\
+        Department of Crop and Soil Sciences\
+        North Carolina State University, Raleigh, NC.
 
-2017 – 2023: Graduate assistant\
-             Soil, Water, and Ecosystem Sciences Department\
-             Institute of Food and Agricultural Sciences\
-             University of Florida, Gainesville, FL.
+2017 -- 2023: Graduate assistant\
+      Soil, Water, and Ecosystem Sciences Department\
+      Institute of Food and Agricultural Sciences\
+      University of Florida, Gainesville, FL.
 
-2016 – 2017: Federal Government of Nigeria\
-             Npower agricultural services program\
-             Ogun State Agricultural Development Program, Abeokuta, Nigeria.
-             
-2015 – 2016: National Youth Service Corps\
-						 Ladoke Akintola University of Technology Ogbomosho, Nigeria.
-             
-2012 – 2013: Intern\
-						 Odogbolu rural community settlement\
-						 Community-Based Farming Scheme\
-             Federal University of Agriculture, Abeokuta, Nigeria.
-             
+2016 -- 2017: Federal Government of Nigeria\
+      NPower agricultural services program\
+      Ogun State Agricultural Development Program, Abeokuta, Nigeria.
+
+2015 -- 2016: National Youth Service Corps\
+      Ladoke Akintola University of Technology Ogbomosho, Nigeria.
+
+2012 -- 2013: Intern\
+      Odogbolu rural community settlement\
+      Community-Based Farming Scheme\
+      Federal University of Agriculture, Abeokuta, Nigeria.
+
 2011 - 2012: Intern\
-						 Organic Agriculture for Tertiary Institution in Nigeria\
-						 Federal University of Agriculture, Abeokuta, Nigeria. 
-
+      Organic Agriculture for Tertiary Institution in Nigeria\
+      Federal University of Agriculture, Abeokuta, Nigeria.

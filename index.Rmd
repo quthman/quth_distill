@@ -8,4 +8,4 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](coming_soon.png){width=100%}
+![](coming_soon.png){width="100%"}
